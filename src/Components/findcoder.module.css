@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#nav{
+    height: 70px;
+    width: 100%;
+    box-shadow: 0px 0px 1px grey;
+    display: flex;
+    justify-content: center;
+    border-bottom:1px solid gray;
+}
+#nav>article{
+    height: 70px;
+    width: 90%;
+    display: flex;
+}
+#nav>article>.Logo{
+    height: 70px;
+    width: 25%;
+}
+#nav>article>.Menu{
+    height: 70px;
+    width: 45%;
+}
+#nav>article>.Btn{
+    height: 70px;
+    width: 30%;
+}
+#logoBlock{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#logoBlock>p{
+    font-size: 25px;
+    color:rgb(45,136,226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menuBlock{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-style:normal;
+    list-style: none;
+    text-decoration: none;
+}
+#menuBlock>li>a{
+    list-style: none;
+    text-decoration: none;
+    color: rgb(160,153,140);
+}
+#btnBlock{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    
+}
+#btnBlock>button{
+    background-color:rgb(45,136,226); 
+    color: white;
+    height: 30px;
+    width: 110px;
+    border-radius: 5px;
+    border-style: none;
+    display: flex;
+    align-items: center;
+}
+#btnBlock>button>svg{
+    height: 20px;
+    width: 20px;
+    margin-left: 7px;
+}
